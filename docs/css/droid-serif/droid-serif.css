@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Serif'),
+    url('droid-serif.ttf') format('truetype');
+}
