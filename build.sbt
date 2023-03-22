@@ -39,7 +39,10 @@ lazy val core = project
   .settings(name := "core")
   .settings(baseSettings: _*)
   .settings(
-    libraryDependencies ++= Seq("org.typelevel" %% "cats-effect" % "3.4.8")
+    libraryDependencies += "org.typelevel" %% "cats-effect" % "3.4.8",
+    libraryDependencies += "co.fs2" %% "fs2-core" % "3.6.1",
+    libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5",
+    libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.4.6",
   )
 
 lazy val slides = project
