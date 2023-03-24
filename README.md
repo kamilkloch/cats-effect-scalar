@@ -1,4 +1,4 @@
-# Cats-Effect - Supervisor, Dispatcher, IOLocal
+# Cats Effect - Supervisor, Dispatcher, IOLocal
 
 Sources for the following talk: https://kamilkloch.github.io/cats-effect-scalar
 
