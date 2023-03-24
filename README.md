@@ -15,8 +15,9 @@ You can then view the slides by opening `docs/index.html` in your browser.
 
 ### How to publish slides with github
 
-When you are ready push the repository to github (including the compiled slides in `docs`),
-go to project settings -> GitHub Pages and select `master branch /docs folder` for
-the source of github pages.
+Push the changes (including the compiled slides in `docs`) to github. 
+
+Go to project settings -> GitHub Pages and select `main branch /docsr` as
+the source for github pages.
 
 [mdoc]: https://scalameta.org/mdoc/
